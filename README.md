@@ -14,14 +14,12 @@ This project aims to determine whether a machine learning model can reliably pre
 
 The dataset is sourced from various platforms including social media (Reddit, Twitter). Each statement is labeled with one of seven categories:
 
-| Label | Description |
-|---|---|
-| Normal | No condition detected |
-| Depression | Depressive symptoms |
-| Suicidal | Suicidal ideation |
-| Anxiety | Anxiety symptoms |
-| Stress | Stress-related symptoms |
-| Bi-Polar | Bipolar disorder indicators |
-| Personality Disorder | Personality disorder indicators |
+- Normal
+- Depression
+- Suicidal
+- Anxiety
+- Stress
+- Bi-Polar
+- Personality Disorder
 
 **Download:** https://dsets.s3.us-east-1.amazonaws.com/mental_health_data.csv
