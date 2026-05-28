@@ -1,0 +1,43 @@
+# Temporary and binary files
+*~
+*.so
+*.cfg
+!.isort.cfg
+!setup.cfg
+*.orig
+*.log
+*.pot
+__pycache__/*
+.cache/*
+.*.swp
+*/.ipynb_checkpoints/*
+.ipynb_checkpoints
+.DS_Store
+.bash_history
+.local/
+
+# Project files
+.ropeproject
+.project
+.pydevproject
+.settings
+.idea
+.vscode
+.ipython/
+.jupyter/
+.python_history
+tags
+
+# Package files
+*.egg
+*.eggs/
+.installed.cfg
+*.egg-info
+
+# Per-project virtualenvs
+.venv*/
+.conda*/
+.python-version
+
+# Secrets
+.env
