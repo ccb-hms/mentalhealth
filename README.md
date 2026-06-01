@@ -23,3 +23,7 @@ The dataset is sourced from various platforms including social media (Reddit, Tw
 - Personality Disorder
 
 **Download:** https://dsets.s3.us-east-1.amazonaws.com/mental_health_data.csv
+
+## Problem statement
+
+Explore the provided data set and use a machine learning approach of your choice to classify messages into the seven labeled categories.
