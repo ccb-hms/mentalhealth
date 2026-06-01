@@ -26,4 +26,4 @@ The dataset is sourced from various platforms including social media (Reddit, Tw
 
 ## Problem statement
 
-Explore the provided data set and use a machine learning approach of your choice to classify messages into the seven labeled categories.
+Explore the provided data set and use a machine learning approach of your choice to classify text messages into the seven labeled categories.
