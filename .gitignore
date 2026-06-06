@@ -9,7 +9,8 @@ models/
 *.orig
 *.log
 *.pot
-__pycache__/*
+__pycache__/
+*.pyc
 .cache/*
 .*.swp
 */.ipynb_checkpoints/*
