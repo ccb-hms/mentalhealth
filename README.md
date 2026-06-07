@@ -27,3 +27,30 @@ The dataset is sourced from various platforms including social media (Reddit, Tw
 ## Problem statement
 
 Explore the provided data set and use a machine learning approach of your choice to classify text messages into the seven labeled categories.
+
+
+
+
+## Solution
+
+**See details in** [`notebooks/solution_walkthrough.ipynb`](notebooks/solution_walkthrough.ipynb).
+
+- Multi-class text classification
+- Two models on the same data split: a **TF-IDF + Logistic Regression** baseline
+  (test macro-F1 ≈ **0.71**) and a fine-tuned **DistilBERT** primary model (≈ **0.81**).
+
+### Setup
+
+```bash
+pip install -r requirements.txt   # Python 3.12
+```
+
+### Pipeline
+```bash
+# data processing
+python -m src.data
+# fit + evaluate the TF-IDF + Logistic Regression baseline
+python -m src.train_eval_LR
+# DistilBERT model fine-tuning and evaluation
+python -m src.train_eval_transformer
+```

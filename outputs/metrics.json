@@ -1,0 +1,167 @@
+{
+  "primary": "tfidf_logistic_regression",
+  "comparison_full": [
+    {
+      "model": "tfidf_logistic_regression",
+      "accuracy": 0.756,
+      "macro_f1": 0.7056
+    }
+  ],
+  "per_class_full": {
+    "Anxiety": {
+      "precision": 0.7557840616966581,
+      "recall": 0.814404432132964,
+      "f1-score": 0.784,
+      "support": 361.0
+    },
+    "Bipolar": {
+      "precision": 0.7368421052631579,
+      "recall": 0.784,
+      "f1-score": 0.7596899224806202,
+      "support": 250.0
+    },
+    "Depression": {
+      "precision": 0.7682227682227682,
+      "recall": 0.6220159151193634,
+      "f1-score": 0.6874312935141077,
+      "support": 1508.0
+    },
+    "Normal": {
+      "precision": 0.8872638634978671,
+      "recall": 0.9088639200998752,
+      "f1-score": 0.8979340117175455,
+      "support": 1602.0
+    },
+    "Personality disorder": {
+      "precision": 0.5638297872340425,
+      "recall": 0.5955056179775281,
+      "f1-score": 0.5792349726775956,
+      "support": 89.0
+    },
+    "Stress": {
+      "precision": 0.4666666666666667,
+      "recall": 0.6419213973799127,
+      "f1-score": 0.5404411764705882,
+      "support": 229.0
+    },
+    "Suicidal": {
+      "precision": 0.6576040781648258,
+      "recall": 0.7274436090225563,
+      "f1-score": 0.6907630522088354,
+      "support": 1064.0
+    },
+    "accuracy": 0.7560258671369783,
+    "macro avg": {
+      "precision": 0.690887618677998,
+      "recall": 0.7277364131045998,
+      "f1-score": 0.7056420612956131,
+      "support": 5103.0
+    },
+    "weighted avg": {
+      "precision": 0.7630145940210997,
+      "recall": 0.7560258671369783,
+      "f1-score": 0.7560979791379989,
+      "support": 5103.0
+    }
+  },
+  "top_features": {
+    "Anxiety": [
+      "anxiety",
+      "restless",
+      "anxious",
+      "worried",
+      "nervous",
+      "worry",
+      "cancer",
+      "health anxiety",
+      "restlessness",
+      "health",
+      "symptoms",
+      "heart"
+    ],
+    "Bipolar": [
+      "bipolar",
+      "manic",
+      "meds",
+      "episode",
+      "mania",
+      "lamictal",
+      "lithium",
+      "hypomanic",
+      "ve",
+      "bp",
+      "latuda",
+      "stable"
+    ],
+    "Depression": [
+      "depression",
+      "wa",
+      "depressed",
+      "ha",
+      "doe",
+      "life",
+      "feel",
+      "anymore",
+      "just",
+      "happy",
+      "pression",
+      "parent"
+    ],
+    "Normal": [
+      "wa",
+      "url",
+      "\u00f0y",
+      "twitter",
+      "quot",
+      "eid",
+      "yes",
+      "ha",
+      "just woke",
+      "tweet",
+      "holiday",
+      "oh"
+    ],
+    "Personality disorder": [
+      "avpd",
+      "avoidant",
+      "don",
+      "people",
+      "social",
+      "ve",
+      "avoid",
+      "avoidance",
+      "avoiding",
+      "didn",
+      "person",
+      "guys"
+    ],
+    "Stress": [
+      "stress",
+      "stressed",
+      "ptsd",
+      "tl dr",
+      "don",
+      "ve",
+      "tl",
+      "dr",
+      "happened",
+      "boyfriend",
+      "don know",
+      "abuse"
+    ],
+    "Suicidal": [
+      "suicide",
+      "kill",
+      "suicidal",
+      "die",
+      "anymore",
+      "https",
+      "life",
+      "end",
+      "want",
+      "fucking",
+      "killing",
+      "live"
+    ]
+  }
+}
